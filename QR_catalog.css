@@ -1,0 +1,232 @@
+.body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+*, *:before, *:after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 7px;
+}
+
+.catalog-section{
+    width: 100%;
+    height: 155vh;
+    background: linear-gradient(72.59deg, #F4E9FF -0.67%, #CDC5FF 100%);
+}
+
+/* !Catalog top side */
+.catalog-section__upper-side{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 85px;
+}
+
+ion-icon{
+    font-size: 32px;
+    color: black;
+}
+
+.user-buttons__button{
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/* !Catalog bottom side */
+.catalog-section__lower-side{
+    margin-top: 70px;
+    display: flex;
+}
+
+.filter-product__name-title h2{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+
+    color: #000000;
+}
+
+.filter-product__selection p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #000000;
+}
+
+.filter-product-color__title{
+    margin-top: 30px;
+}
+
+.filter-product__color-selector ul{
+    width: 100%;
+    max-width: 168px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.color-item{
+    width: 30px;
+    height: 30px;
+    background-color: #000000;
+    border-radius: 50%;
+    list-style: none;
+    margin: 5px 5px 5px 0;
+}
+
+.color-item__green{
+    background-color: #2A553A;
+}
+
+.color-item__dark-blue{
+    background-color: #18415F;
+}
+.color-item__orange{
+    background-color: #DC4C29;
+}
+.color-item__beige{
+    background-color: #AA9374;
+}
+
+.filter-product-model__title{
+    margin-top: 30px;
+}
+
+.filter-product-model__buttons{
+    margin-top: 20px;
+}
+
+.filter-product-model__button{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #000000;
+    text-decoration: none;
+
+    display: inline-block;
+    vertical-align: top;
+    padding: 6px 18px;
+    margin-right: 5px;
+    background-color: #fff;
+    border-radius: 10px;
+    transition: all .2s linear;
+}
+
+.filter-product-model__button:hover{
+    color: #fff;
+    background-color: #1818D9;
+}
+
+/* !Catalog products */
+.product-list-section{
+    width: 100%;
+    margin-left: 150px;
+}
+
+.product-list-section__container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* !Product block */
+.product-block{
+    width: 100%;
+    max-width: 302px;
+    margin-bottom: 40px;
+}
+
+.product-block__inner{
+    position: relative;
+}
+
+.product-block__product-image{
+    width: 300px;
+    height: 289px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    transition: all .2s linear;
+}
+
+.favourite-button{
+    position: absolute;
+    top: 26px;
+    right: 26px;
+}
+
+.product-block__name-price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.product-name{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.product-price{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #707070;
+}
+
+.product-button{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    text-decoration: none;
+
+    margin-top: 10px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 18px 78px;
+    border-radius: 15px;
+    background-color: #1818D9;
+    box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.25);
+    transition: all .2s linear;
+}
+
+.product-button:hover{
+    color: #000;
+    background-color: #fff;
+}
+
+
+
+
+
